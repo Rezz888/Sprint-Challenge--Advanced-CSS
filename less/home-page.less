@@ -22,18 +22,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-  
-    @media (max-width: 500px) {
 
-      img {
-      .sky {
-        display: none;
-      }
-      .launch {
-        display: none;
-      }
-
-    }
+    
     
 
     img {
@@ -67,6 +57,11 @@
     display: flex;
     justify-content: center;
 
+    @media (max-width: 500px) {
+      flex-direction: column-reverse;
+      
+    }
+
     .walk-text {
       width: 50%;
 
@@ -97,6 +92,11 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      @media (max-width: 500px) {
+        width: 100%;
+        margin: -20px auto 20px auto;
+      }
       
       img {
         width: 100%;
@@ -105,4 +105,4 @@
       }
     }
   }
-}// home
+}  // home
