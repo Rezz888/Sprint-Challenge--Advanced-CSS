@@ -84,12 +84,12 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    .flex-property();
 
     @media @mobile {
-      flex-direction: column-reverse;
-      align-items: center;
+      // flex-direction: column-reverse;
+      // align-items: center;
+      .flex(column-reverse, center);
       
     }
 

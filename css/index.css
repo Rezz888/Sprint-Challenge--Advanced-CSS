@@ -174,14 +174,14 @@ p {
   padding: 10px 0;
 }
 .main-header nav {
-  width: 60%;
+  width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 15px;
 }
 @media (max-width: 500px) {
   .main-header nav {
-    width: 80%;
+    width: 100%;
   }
 }
 .main-header nav a {
@@ -189,6 +189,7 @@ p {
   font-size: 1.8rem;
   font-weight: bolder;
   color: #29273F;
+  margin: 0 10px;
 }
 footer {
   color: #22283B;

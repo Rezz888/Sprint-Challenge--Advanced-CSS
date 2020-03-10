@@ -1,4 +1,13 @@
 // Mixins Here
+.flex-property() {
+    display: flex;
+    justify-content: center;
+}
+
+.flex(@fl, @ai) {
+    flex-direction: @fl;
+    align-items: @ai;
+}
 
 .button(@fs, @ta) {
     font-size: @fs;
